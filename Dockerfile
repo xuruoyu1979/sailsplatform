@@ -2,7 +2,7 @@ FROM node:0.12.9
 
 MAINTAINER ruoyu.xu@windriver.com
 
-RUN npm install sails
+RUN npm install -g sails
 
 VOLUME /app
 
