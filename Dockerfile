@@ -4,6 +4,10 @@ MAINTAINER ruoyu.xu@windriver.com
 
 RUN npm install -g sails
 
+COPY ./package.json /
+
+RUN npm install
+
 VOLUME /app
 
 WORKDIR /app
